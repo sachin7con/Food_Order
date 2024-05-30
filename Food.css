@@ -20,7 +20,9 @@ body {
   overflow-y: auto; /* Enable scrolling for the right column */
   padding: 2px; /* Optional: Add padding for better appearance */
 }
-
+#DelfoodMenu{
+  width: 100%;
+}
 h3 {
   text-align: center;
 }
