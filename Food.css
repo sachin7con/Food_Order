@@ -1,0 +1,74 @@
+/* ONS */
+body {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  margin: 0; /* Remove default margin */
+}
+
+#leftColumn {
+  position: fixed;
+  width: 20%; /* Set a fixed width for the left column */
+  height: 100vh; /* Full height of the viewport */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+  margin-left: 5px;
+}
+
+#rightColumn {
+  margin-left: 20%; /* Leave space for the fixed left column */
+  width: 100%; /* Remaining width of the page */
+  overflow-y: auto; /* Enable scrolling for the right column */
+  padding: 2px; /* Optional: Add padding for better appearance */
+}
+
+h3 {
+  text-align: center;
+}
+#red{
+  color: red;
+  text-align: center;
+}
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adds space between the items */
+  padding: 10px;
+}
+
+#menu > div {
+  flex: 1 1 calc(33.33% - 20px); /* Adjust the width of the items to be 1/3rd of the container minus the gap */
+  box-sizing: border-box;
+  background-color: #333; /* Dark grey background */
+  padding: 10px; /* Padding inside the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a card effect */
+  text-align: left; /* Center the text */
+}
+
+.card img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the image */
+  padding-right: 2px;
+}
+
+.card p {
+  margin: 5px 0; /* Margin for the paragraphs */
+  color: #fff; /* White text color */
+}
+
+/* Ensures the image maintains its aspect ratio */
+.menu {
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+}
+.addsign {
+  height: 5px;
+  width: 5px;
+}
+.menuElementFooter{
+  display:flex;
+  justify-content: space-between;
+}
